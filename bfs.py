@@ -13,7 +13,7 @@ def _DFS(A,N,M,V):
 def _BFS(A,N,M,V):
     visited=list()
     need_visited=list()
-    need_visited.append(V)
+    need_visited.append(V) 
     while need_visited:
         temp = need_visited.pop(0)
         for i in A[temp]:
